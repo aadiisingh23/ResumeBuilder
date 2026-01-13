@@ -25,7 +25,9 @@ app.get('/',(req,res)=>{
 })
 
 
-
+app.get('/data'){
+res.send('DAta')
+}
 
 
 
